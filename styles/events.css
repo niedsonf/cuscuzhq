@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .event {
+        @apply flex flex-col items-center justify-start h-[500px] grow hover:grow-[3] transition-all bg-yellow-low relative overflow-hidden
+    }
+}

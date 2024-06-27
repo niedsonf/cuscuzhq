@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .header-action {
+        @apply flex flex-col text-base text-white hover:text-yellow-low px-4 py-2 relative before:content-[''] before:absolute before:h-0.5 before:left-0 before:bottom-0 before:bg-yellow-low before:w-0 hover:before:w-full before:transition-all before:origin-center
+    }
+}
